@@ -158,6 +158,7 @@
 				TargetAttributes = {
 					8796E40119605F8800A77336 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = BSN9DSQ2C4;
 					};
 					8796E41319605F8800A77336 = {
 						CreatedOnToolsVersion = 6.0;
@@ -326,6 +327,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ultracalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -337,6 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ultracalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -397,6 +400,7 @@
 				8796E42019605F8800A77336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8796E42119605F8800A77336 /* Build configuration list for PBXNativeTarget "ultracalcTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +409,7 @@
 				8796E42319605F8800A77336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
