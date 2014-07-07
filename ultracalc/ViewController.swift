@@ -96,6 +96,7 @@ class ViewController: UIViewController {
     }
     
     func calculateAndUpdate() {
+        println(self.enteredNumberString)
         switch self.currentOperation {
         case "":
             self.previousNumberString = self.enteredNumberString
