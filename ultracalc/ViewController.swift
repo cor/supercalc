@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet strong var resultLabel: UILabel = UILabel()
-    @IBOutlet strong var currentOperationLabel: UILabel = UILabel()
+    @IBOutlet var resultLabel: UILabel! = UILabel()
+    @IBOutlet var currentOperationLabel: UILabel! = UILabel()
     
     var previousNumberString:NSString = ""
     var enteredNumberString:NSString = ""
@@ -36,7 +36,9 @@ class ViewController: UIViewController {
             self.enteredNumberIsPreviousNumber = false
         }
         
-        self.enteredNumberString = self.enteredNumberString + sender.currentTitle
+        if let titl = sender.currentTitle {
+            self.enteredNumberString = self.enteredNumberString + sender.currentTitle!
+        }
         self.resultLabel.text = enteredNumberString
     }
     
